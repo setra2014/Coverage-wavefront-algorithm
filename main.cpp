@@ -44,7 +44,7 @@ private:
         }
         return true;
     }
-    // запись в файлы расстояний от начальной ячейки
+    // запись в файл расстояний от начальной ячейки
     void distance_map_to_txt(){
         ofstream fout("distance_map.txt");
         for (int i = 0; i < n; i++){
